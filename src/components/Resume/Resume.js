@@ -11,7 +11,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 const Resume = () => {
     return (
         <div className="side-space mt-3 mb-3 resume-container">
-            <h1 className="text-uppercase text-center">Resume</h1>
+            <h1 className="text-uppercase text-center custom-brand d-block w-25 m-auto p-2">Resume</h1>
             <div clasName="mt-3 mb-3 p-3">
                 <h2 className="text-brand" style={{ borderLeft: '3px solid salmon', margin: '0 15px', padding: '5px' }}>Experience</h2>
                 <ul>

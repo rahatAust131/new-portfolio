@@ -5,9 +5,9 @@ import './Navbar.css';
 const Navbar = () => {
     
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-info">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
-                <Link className="navbar-brand" style={{color: 'black'}} to="https://www.linkedin.com/in/rahat-chowdhury-zisan/">{"< DevRahat />"}</Link>
+                <a className="navbar-brand" style={{color: 'black'}} href="https://www.linkedin.com/in/rahat-chowdhury-zisan/" target="blank">{"< DevRahat />"}</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon navbar-btn"></span>
                 </button>

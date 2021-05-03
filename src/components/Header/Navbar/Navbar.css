@@ -1,11 +1,12 @@
 nav {
     font-size: 20px;
     font-weight: 500;
+    width: 100%;
 }
 .navbar {
     min-height: 10vh;
     text-align: center;
-    background: transparent;
+    background-image: linear-gradient(45deg, greenyellow, lightgray);
 }
 .nav-links {
     margin: 0 10px;

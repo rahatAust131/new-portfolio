@@ -1,6 +1,8 @@
 .header-container {
     min-height: 90vh;
+    margin: 0 2px;
     background-image: url('../../../images/backgrounds/bg1.jpg');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }

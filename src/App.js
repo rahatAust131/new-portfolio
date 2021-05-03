@@ -16,7 +16,8 @@ import Navbar from './components/Header/Navbar/Navbar';
 function App() {
 
   return (
-    <Router>
+    <div className="side-space">
+      <Router >
       <Navbar />
       <Switch>
         <Route path="/home">
@@ -42,6 +43,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+    </div>
   );
 }
 
