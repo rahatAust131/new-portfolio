@@ -7,6 +7,7 @@ const Contact = () => {
     const onSubmit = data => console.log(data);
     return (
         <div className="">
+            <h2 className="w-50 text-center d-block m-auto"><span className="text-brand custom-brand">Get</span> In Touch</h2>
             <form className="form-container" onSubmit={handleSubmit(onSubmit)}>
                 <input className="form-input w-75" type="text" placeholder="Your Name" {...register("name")} />
                 <input className="form-input w-75" placeholder="Your Email Address" {...register("email")} />
